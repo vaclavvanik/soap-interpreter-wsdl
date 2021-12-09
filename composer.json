@@ -1,0 +1,45 @@
+{
+  "name": "vaclavvanik/soap-interpreter-wsdl",
+  "description": "Interpreting of SOAP 1.1 and SOAP 1.2 messages with soap-wsdl",
+  "license": "MIT",
+  "type": "library",
+  "homepage": "https://github.com/vaclavvanik/soap-interpreter-wsdl",
+  "keywords": [
+    "soap",
+    "wsdl",
+    "request",
+    "response"
+  ],
+  "authors": [
+    {
+      "name": "Václav Vaník",
+      "email": "vaclav.vanik@gmail.com"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "vaclavvanik/soap-interpreter": "^0.2.0",
+    "vaclavvanik/soap-wsdl": "^0.1.0"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "VaclavVanik\\Soap\\Interpreter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "VaclavVanikTest\\Soap\\Interpreter\\": "test/unit"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  }
+}
