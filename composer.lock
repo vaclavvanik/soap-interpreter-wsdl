@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d511cd47a0b5e6f43400b987a2f1cbfc",
+    "content-hash": "7ac7b3c15cf338fe0008a3e21867ed46",
     "packages": [
         {
             "name": "vaclavvanik/soap-interpreter",
-            "version": "0.4.0",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vaclavvanik/soap-interpreter.git",
-                "reference": "c1d9d324f6fc30f546f2468bda248752953b11b7"
+                "reference": "120423da179de56ce7f4557d8dda4c772c0fe564"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vaclavvanik/soap-interpreter/zipball/c1d9d324f6fc30f546f2468bda248752953b11b7",
-                "reference": "c1d9d324f6fc30f546f2468bda248752953b11b7",
+                "url": "https://api.github.com/repos/vaclavvanik/soap-interpreter/zipball/120423da179de56ce7f4557d8dda4c772c0fe564",
+                "reference": "120423da179de56ce7f4557d8dda4c772c0fe564",
                 "shasum": ""
             },
             "require": {
@@ -27,7 +27,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4.x-dev"
+                    "dev-master": "0.5.x-dev"
                 }
             },
             "autoload": {
@@ -55,9 +55,9 @@
             ],
             "support": {
                 "issues": "https://github.com/vaclavvanik/soap-interpreter/issues",
-                "source": "https://github.com/vaclavvanik/soap-interpreter/tree/0.4.0"
+                "source": "https://github.com/vaclavvanik/soap-interpreter/tree/0.5.0"
             },
-            "time": "2022-12-01T14:41:24+00:00"
+            "time": "2022-12-05T12:22:29+00:00"
         },
         {
             "name": "vaclavvanik/soap-wsdl",
