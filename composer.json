@@ -24,9 +24,6 @@
     "vaclavvanik/soap-interpreter": "^0.5.0",
     "vaclavvanik/soap-wsdl": "^0.1.0"
   },
-  "require-dev": {
-
-  },
   "autoload": {
     "psr-4": {
       "VaclavVanik\\Soap\\Interpreter\\": "src/"
