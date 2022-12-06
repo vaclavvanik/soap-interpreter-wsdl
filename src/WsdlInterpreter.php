@@ -52,7 +52,7 @@ final class WsdlInterpreter implements Interpreter
         return $this->interpreter()->response($operation, $response);
     }
 
-    /** @throws Exception\Wsdl */
+    /** @throws Wsdl\Exception\Exception */
     private function interpreter(): Interpreter
     {
         if ($this->interpreter) {
@@ -60,22 +60,12 @@ final class WsdlInterpreter implements Interpreter
         }
 
         $this->interpreter = PhpInterpreter::fromWsdl(
-            $this->wsdl(),
+            Wsdl\Utils::toDataUrl($this->provider->provide()),
             $this->soapVersion,
             $this->features,
             $this->location,
         );
 
         return $this->interpreter;
-    }
-
-    /** @throws Exception\Wsdl */
-    private function wsdl(): string
-    {
-        try {
-            return Wsdl\Utils::toDataUrl($this->provider->provide());
-        } catch (Wsdl\Exception\Exception $e) {
-            throw Exception\Wsdl::fromThrowable($e);
-        }
     }
 }

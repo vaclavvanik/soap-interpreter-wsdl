@@ -4,30 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ac7b3c15cf338fe0008a3e21867ed46",
+    "content-hash": "f269ff10fba98bbe5bfc6e21c440d353",
     "packages": [
         {
             "name": "vaclavvanik/soap-interpreter",
-            "version": "0.5.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vaclavvanik/soap-interpreter.git",
-                "reference": "120423da179de56ce7f4557d8dda4c772c0fe564"
+                "reference": "710a7debefad696f9541fd7333629bd64340bafd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vaclavvanik/soap-interpreter/zipball/120423da179de56ce7f4557d8dda4c772c0fe564",
-                "reference": "120423da179de56ce7f4557d8dda4c772c0fe564",
+                "url": "https://api.github.com/repos/vaclavvanik/soap-interpreter/zipball/710a7debefad696f9541fd7333629bd64340bafd",
+                "reference": "710a7debefad696f9541fd7333629bd64340bafd",
                 "shasum": ""
             },
             "require": {
                 "ext-soap": "*",
-                "php": "^7.3 || ^8.0"
+                "php": "^7.3 || ^8.0",
+                "vaclavvanik/soap-wsdl": "^1.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.5.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -55,22 +56,22 @@
             ],
             "support": {
                 "issues": "https://github.com/vaclavvanik/soap-interpreter/issues",
-                "source": "https://github.com/vaclavvanik/soap-interpreter/tree/0.5.0"
+                "source": "https://github.com/vaclavvanik/soap-interpreter/tree/1.0.0"
             },
-            "time": "2022-12-05T12:22:29+00:00"
+            "time": "2022-12-06T09:49:50+00:00"
         },
         {
             "name": "vaclavvanik/soap-wsdl",
-            "version": "0.1.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vaclavvanik/soap-wsdl.git",
-                "reference": "f6d408bea96f231ab9a1bd5438bf8e8c99010037"
+                "reference": "7b3bc9e28c3bfc1cb039157a156d110505045458"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vaclavvanik/soap-wsdl/zipball/f6d408bea96f231ab9a1bd5438bf8e8c99010037",
-                "reference": "f6d408bea96f231ab9a1bd5438bf8e8c99010037",
+                "url": "https://api.github.com/repos/vaclavvanik/soap-wsdl/zipball/7b3bc9e28c3bfc1cb039157a156d110505045458",
+                "reference": "7b3bc9e28c3bfc1cb039157a156d110505045458",
                 "shasum": ""
             },
             "require": {
@@ -79,7 +80,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.2.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -105,9 +106,9 @@
             ],
             "support": {
                 "issues": "https://github.com/vaclavvanik/soap-wsdl/issues",
-                "source": "https://github.com/vaclavvanik/soap-wsdl/tree/0.1.0"
+                "source": "https://github.com/vaclavvanik/soap-wsdl/tree/1.0.0"
             },
-            "time": "2021-12-02T09:23:19+00:00"
+            "time": "2022-12-05T13:38:59+00:00"
         }
     ],
     "packages-dev": [],

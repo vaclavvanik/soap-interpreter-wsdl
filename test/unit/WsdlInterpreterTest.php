@@ -6,7 +6,6 @@ namespace VaclavVanikTest\Soap\Interpreter;
 
 use PHPUnit\Framework\TestCase;
 use Throwable;
-use VaclavVanik\Soap\Interpreter\Exception\Wsdl;
 use VaclavVanik\Soap\Interpreter\WsdlInterpreter;
 use VaclavVanik\Soap\Wsdl\Exception\Runtime;
 use VaclavVanik\Soap\Wsdl\WsdlProvider;
@@ -19,7 +18,7 @@ final class WsdlInterpreterTest extends TestCase
     {
         $exception = new Runtime('message', 1);
 
-        $this->expectException(Wsdl::class);
+        $this->expectException(Runtime::class);
         $this->expectExceptionMessage($exception->getMessage());
 
         $wsdlProvider = $this->mockWsdlProviderThrowException($exception);
